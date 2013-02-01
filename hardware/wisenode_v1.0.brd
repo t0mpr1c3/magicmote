@@ -129,8 +129,8 @@
 <wire x1="50" y1="24.5" x2="50" y2="0" width="0" layer="20"/>
 <rectangle x1="0" y1="24.638" x2="49.9872" y2="25.3746" layer="30"/>
 <rectangle x1="0" y1="24.638" x2="49.9872" y2="25.3746" layer="29"/>
-<text x="41.529" y="0.381" size="0.8128" layer="25" font="vector" rot="R90">GND</text>
-<text x="35.179" y="0.381" size="0.8128" layer="25" font="vector" rot="R90">VCC</text>
+<text x="41.529" y="0.254" size="0.8128" layer="25" font="vector" rot="R90">GND</text>
+<text x="35.179" y="0.254" size="0.8128" layer="25" font="vector" rot="R90">VCC</text>
 <text x="6.477" y="21.5392" size="1.016" layer="25" font="vector" rot="R270">GND</text>
 <text x="1.143" y="21.463" size="1.016" layer="25" font="vector" rot="R270">VCC</text>
 <text x="3.81" y="21.5646" size="1.016" layer="25" font="vector" rot="R270">P13</text>
@@ -141,13 +141,13 @@
 <text x="37.846" y="21.717" size="0.8128" layer="25" font="vector" rot="R270">RST</text>
 <text x="35.179" y="21.717" size="0.8128" layer="25" font="vector" rot="R270">TST</text>
 <text x="48.006" y="21.59" size="0.8128" layer="25" font="vector" rot="R270">GND</text>
-<text x="46.863" y="6.477" size="1.016" layer="21">USB</text>
+<text x="47.117" y="6.731" size="1.016" layer="21">USB</text>
 <text x="46.99" y="5.461" size="0.6096" layer="21">POWER</text>
-<text x="46.99" y="4.445" size="0.6096" layer="21">ONLY</text>
+<text x="47.244" y="4.445" size="0.6096" layer="21">ONLY</text>
 <text x="17.78" y="0.635" size="1.016" layer="22" font="vector" rot="MR0">http://is.gd/wisenode</text>
 <text x="17.78" y="2.032" size="1.016" layer="22" font="vector" rot="MR0">Wisenode v1.0</text>
 <text x="27.686" y="21.59" size="0.8128" layer="25" font="vector" rot="R270">P25</text>
-<text x="29.972" y="21.717" size="0.8128" layer="25" font="vector" rot="R270">P24</text>
+<text x="30.226" y="21.6916" size="0.8128" layer="25" font="vector" rot="R270">P24</text>
 <text x="32.004" y="21.59" size="0.8128" layer="25" font="vector" rot="R270">P23</text>
 <text x="2.54" y="12.827" size="0.8128" layer="25" font="vector" rot="R180">DQ</text>
 <text x="3.302" y="15.24" size="0.8128" layer="25" font="vector" rot="R180">GND</text>
@@ -3959,13 +3959,13 @@ design rules under a new name.</description>
 <attribute name="NAME" x="11.286" y="3.349" size="1.016" layer="25" font="vector" rot="R90"/>
 </element>
 <element name="C1" library="resistor" package="C0805" value="100nF" x="24.13" y="18.339" smashed="yes">
-<attribute name="NAME" x="26.162" y="17.45" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="23.495" y="16.18" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="C2" library="rcl" package="C1206" value="10uF" x="24.003" y="20.848" smashed="yes">
 <attribute name="NAME" x="23.114" y="21.991" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="BAT1" library="SparkFun" package="BATTCOM_20MM_PTH" value="CR2032" x="33.782" y="11.43" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="27.686" y="6.35" size="1.016" layer="28" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="27.686" y="6.477" size="1.016" layer="28" font="vector" rot="MR0"/>
 </element>
 <element name="Q1" library="TI_MSP430_v16" package="PW20" value="G2XX3---PW20" x="25.019" y="12.319" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.3831" y="14.2279" size="1.016" layer="25" font="vector"/>
@@ -3975,7 +3975,7 @@ design rules under a new name.</description>
 <attribute name="MPN" value="" x="37.592" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MF" value="" x="37.592" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="37.592" y="17.526" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="44.45" y="17.018" size="1.016" layer="25" font="vector" ratio="10"/>
+<attribute name="NAME" x="45.085" y="17.018" size="1.016" layer="25" font="vector" ratio="10"/>
 </element>
 <element name="J3" library="SparkFun" package="1X04" value="" x="1.8796" y="22.733" smashed="yes"/>
 <element name="Q2" library="transistor" package="SOT23-BEC" value="" x="13.716" y="2.032" smashed="yes" rot="R90">
@@ -3999,10 +3999,10 @@ design rules under a new name.</description>
 <attribute name="NAME" x="13.208" y="14.097" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C3" library="resistor" package="C0805" value="12nF" x="34.29" y="18.796" smashed="yes" rot="R180">
-<attribute name="NAME" x="33.02" y="20.066" size="1.016" layer="25" font="vector"/>
+<attribute name="NAME" x="33.401" y="19.812" size="1.016" layer="25" font="vector"/>
 </element>
 <element name="C4" library="resistor" package="C0805" value="12nF" x="34.29" y="16.256" smashed="yes" rot="R180">
-<attribute name="NAME" x="34.798" y="15.24" size="1.016" layer="25" font="vector" rot="R180"/>
+<attribute name="NAME" x="35.433" y="15.24" size="1.016" layer="25" font="vector" rot="R180"/>
 </element>
 <element name="C5" library="resistor" package="C0805" value="1nF" x="25.527" y="4.064" smashed="yes" rot="R180">
 <attribute name="NAME" x="25.527" y="2.921" size="1.016" layer="25" font="vector" rot="R180"/>
