@@ -14,4 +14,4 @@ Analogue input with low pass filter
 Tactile switch
 Optional watch crystal
 Programming/serial header as on MSP430 Launchpad
-24.95 x 50.00 mm footprint (2 panels on 5x5 cm)
+24.95 x 49.00 mm footprint (2 panels on 5x5 cm)
