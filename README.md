@@ -1,17 +1,28 @@
 Magic Mote
 ==========
 
-Wireless sensor node with MSP430G2553 and 8-pin adapter for NRF24L01+
+Wireless sensor node interfacing low-power MSP430G2553 microcontroller with Nordic NRF24L01+ 2.4 GHz RF module.
 
-Based on Launchpad boosterpack by Spirilis
-NRF24L01+ library for MSP430 devices by Spirilis
-Software LEDs suggested by J.P.Norair
+Layout designed for easy compatibility with [msprf24 library]("https://github.com/spirilis/msprf24") by Spirilis
 
-Unregulated power input from 2xAA or CR2032 Lithium coin cell
-3.5mm jack socket with 4K7 pullup resistor on data line suitable for 1-wire devices
-4-pin humidity sensor header suitable for ST22 etc
-Analogue input with low pass filter
-Tactile switch
-Optional watch crystal
-Programming/serial header as on MSP430 Launchpad
-24.95 x 49.00 mm footprint (2 panels on 5x5 cm)
+
+Features
+--------
+
+* Unregulated power input from 2xAA or CR2032 Lithium coin cell
+* 3.5mm jack socket/3 pin header with optional 2K2 pullup resistor on data line for 1-wire devices
+* 4-pin header suitable for DHT22 temperature/humidity sensor
+* Analogue input with low pass filter
+* Tactile switch (can be mounted either side of board)
+* Optional watch crystal
+* Programming/serial header
+* 24.95 x 49.00 mm footprint (2 panels on 5x5 cm)
+
+
+Version history
+---------------
+
+_MO01_
+
+First version.
+Erratum: TXD and RXD labels permuted on 6-pin programming/serial header.
