@@ -16,7 +16,7 @@ Features
 * Tactile switch (can be mounted either side of board)
 * Optional watch crystal
 * Programming/serial header
-* 24.95 x 49.00 mm footprint (2 panels on 5x5 cm)
+* Dimensions suit panelization 24.5 x 49.00 mm footprint (2 panels on 5x5 cm)
 
 
 Version history
@@ -26,3 +26,7 @@ _MO01_
 
 First version.
 Erratum: TXD and RXD labels permuted on 6-pin programming/serial header.
+
+_MO02_
+
+Switched TXD and RXD labels on 6-pin programming/serial header.

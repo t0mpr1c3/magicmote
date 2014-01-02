@@ -2,3 +2,25 @@
 .DS_Store?
 *.b#?
 *.s#?
+
+# Gerbers
+*.GML
+*.GTL
+*.GTO
+*.GTS
+*.GTP
+*.GBL
+*.GBO
+*.GBS
+*.GBP
+*.dri
+*.gpi
+*.TXT
+
+# Gerber merge scripts
+*.sh
+
+# old hardware files and panelized Gerber folders
+hardware/old
+hardware/MO01
+hardware/MO01_*
