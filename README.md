@@ -30,3 +30,5 @@ Erratum: TXD and RXD labels permuted on 6-pin programming/serial header.
 _MO02_
 
 Switched TXD and RXD labels on 6-pin programming/serial header.
+Moved from 3x8mm to 2x6mm watch crystal, with isolated ground plane, removed external capacitors.
+Removed superfluous pulldown resistor on TST.
