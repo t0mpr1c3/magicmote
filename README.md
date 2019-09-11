@@ -5,6 +5,8 @@ Wireless sensor node interfacing low-power [MSP430G2553 microcontroller]("http:/
 
 Layout designed for easy compatibility with [msprf24]("https://github.com/spirilis/msprf24") and [Enrf24]("https://github.com/spirilis/Enrf24") libraries by Spirilis.
 
+Blog post: [http://smokedprojects.blogspot.com/2017/03/magic-mote-msp430g2553-wireless-sensor.html](http://smokedprojects.blogspot.com/2017/03/magic-mote-msp430g2553-wireless-sensor.html)
+
 
 Features
 --------
